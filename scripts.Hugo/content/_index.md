@@ -24,7 +24,7 @@ type: docs
 -->
 
 ## [1. youtube直播                                                 ](books/01_youtube/)
-## [9._聯絡方式                                                  ](books/09_contact/)
+## [9. 聯絡方式                                                  ](books/09_contact/)
 
 
 
