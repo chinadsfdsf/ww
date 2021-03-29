@@ -40,9 +40,14 @@ function TTTmyTimer() {
 }
 </script>
 
+<style>
+table , tr , td , th {
+  padding:1px;
+}
+</style>
 
 
-<table style="font-size: 90%; padding:1px; " >
+<table style="width:140%;" >
 <tr>
 <th>idx</th>
 <th>Name</th>
