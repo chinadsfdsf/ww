@@ -1,0 +1,8 @@
+/themes
+/scripts.Hugo/themes/
+/bak001/
+/scripts.Hugo/resources/_gen/
+/docs/hk2[0-1][0-1][0-9]
+/docs/hk2[0-1][0-1][0-9]?
+/[0-9].tar
+/bak*.tar

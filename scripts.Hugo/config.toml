@@ -1,0 +1,152 @@
+# hugo server --minify --themesDir ... --baseURL=hddp://0.0.0.0:1313/theme/hugo-book/
+
+#baseURL = 'hddps://example.com/'
+baseURL = '/'
+title = '政法天地.朱峯'
+theme = 'hugo-book'
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See hddps://gohugo.io/content-management/multilingual/#translation-by-filename
+# And hddps://gohugo.io/content-management/multilingual/#translation-by-content-directory
+###   [languages]
+###   [languages.en]
+###     languageName = 'English'
+###     contentDir = 'content'
+###     weight = 1
+###   
+###   [languages.ru]
+###     languageName = 'Russian'
+###     contentDir = 'content.ru'
+###     weight = 2
+###   
+###   [languages.zh]
+###     languageName = 'Chinese'
+###     contentDir = 'content.zh'
+###     weight = 3
+
+[menu]
+# [[menu.before]]
+# [[menu.after]]
+#   name = "Github"
+#   url = "hddps://github.com/alex-shpak/hugo-book"
+#   weight = 10
+# 
+# [[menu.after]]
+#   name = "Hugo Themes"
+#   url = "hddps://themes.gohugo.io/hugo-book/"
+#   weight = 20
+
+## [[menu.after]]
+##   name = "donate_paypal"
+##   url = "https://www.paypal.com/"
+##   weight = 10
+## 
+## [[menu.after]]
+##   name = "donate GoFundMe"
+##   url = "https://www.gofundme.com/"
+##   weight = 20
+
+[[menu.after]]
+#  name = "rip.jjj123.com"
+#  url = "https://rip.jjj123.com/"
+  name = "chinadsf.org"
+  url = "https://chinadsf.org/"
+  weight = 22
+
+[params]
+  # (Optional, default light) Sets color theme: light, dark or auto.
+  # Theme 'auto' switches between dark and light modes based on browser/os preferences
+  #BookTheme = 'light'
+  BookTheme = 'dark'
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+   BookToC = true
+#  BookToC = false
+
+  # (Optional, default none) Set the path to a logo for the book. If the logo is
+  # /static/logo.png then the path would be logo.png
+  # BookLogo = 'logo.png'
+
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  # BookMenuBundle = '/menu'
+
+  # (Optional, default docs) Specify root page to render child pages as menu.
+  # Page is resoled by .GetPage function: hddps://gohugo.io/functions/getpage/
+  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
+  BookSection = 'books'
+
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  BookRepo = 'hddps://github.com/alex-shpak/hugo-book'
+
+  donate = false
+#  paypal = 'https://paypal.me/omcRonRussell'
+#  paypal = 'https://paypal.me/omcRonRussell?locale.x=en_US'
+#  orgorg = 'https://www.paypal.com/donate?hosted_button_id=6TRBG23HSEXXU'
+#  orgorg_img = 'https://www.paypal.com/donate?hosted_button_id=6TRBG23HSEXXU'
+  date_img = 'omc01.png'
+#  paypal = 'https://www.paypal.com/donate?hosted_button_id=6TRBG23HSEXXU'
+#  paypal_img = 'png/paypal.png'
+  paypal = 'https://www.paypal.com/donate?hosted_button_id=VREGF6QZAJYKC'
+  paypal_img = 'png/paypal.png'
+  # /paypal_omc_button02.png
+  #gofundme = 'https://www.gofundme.com/'
+  #gofundme = 'https://www.gofundme.com/f/one-more-chance-ein-205554223?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1'
+  #gofundme = 'https://www.gofundme.com/one-more-chance-ein-205554223'
+  #gofundme = 'https://gofundme.com/f/one-more-chance-ein-205554223'
+  #gofundme_img = 'png/gofundme.png'
+  gofundme = 'https://www.paypal.com/donate?hosted_button_id=VREGF6QZAJYKC'
+  gofundme_img = 'png/paypal.png'
+
+
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Edit path must point to root directory of repo.
+#  BookEditPath = 'edit/master/exampleSite'
+
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat = 'January 2, 2006'
+
+  # (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+#  BookSearch = true
+  BookSearch = false
+
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See hddps://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  BookPortableLinks = true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
+  BookServiceWorker = true
+
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
+  BookTranslatedOnly = false
