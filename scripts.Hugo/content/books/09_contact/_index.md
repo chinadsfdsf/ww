@@ -1,12 +1,12 @@
 ---
-weight: 10
+weight: 90
 bookCollapseSection: true
-title: "1_youtube直播"
+title: "9_聯絡方式"
 ---
 
 <script language="javascript" type="text/javascript">
 <!--
-window.setTimeout(function(){window.top.location="dd/11_time/"} , 300);
+window.setTimeout(function(){window.top.location="dd/91_self/"} , 300);
 -->
 </script>
 
