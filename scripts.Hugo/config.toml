@@ -62,8 +62,8 @@ enableGitInfo = true
 [[menu.after]]
 #  name = "rip.jjj123.com"
 #  url = "https://rip.jjj123.com/"
-  name = "chinadsf.org"
-  url = "https://chinadsf.org/"
+  name = "www.chinadsf.org"
+  url = "https://www.chinadsf.org/"
   weight = 22
 
 [params]
