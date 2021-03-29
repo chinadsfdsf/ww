@@ -41,112 +41,112 @@ function TTTmyTimer() {
 </script>
 
 <style>
-table , tr , td , th {
-  padding:1px;
+td , th {
+padding:1px;
 }
 </style>
 
 
 <table style="width:140%;" >
 <tr>
-<th>idx</th>
-<th>Name</th>
-<th>TimeZone</th>
-<th>city</th>
-<th>decription</th>
-<th>Name2</th>
-<th>localTime(now)</th>
+<th style="padding:1px;">idx</th>
+<th style="padding:1px;">Name</th>
+<th style="padding:1px;">TimeZone</th>
+<th style="padding:1px;">city</th>
+<th style="padding:1px;">decription</th>
+<th style="padding:1px;">Name2</th>
+<th style="padding:1px;">localTime(now)</th>
 </tr>
 <tr>
 
-<td> 0 </td>
-<td>HK</td>
-<td>Asia/Hong_Kong</td>
-<td>Hongkong</td>
-<td>UTC&#43;8 </td>
-<td> 香港</td>
+<td style="padding:1px;"> 0 </td>
+<td style="padding:1px;">HK</td>
+<td style="padding:1px;">Asia/Hong_Kong</td>
+<td style="padding:1px;">Hongkong</td>
+<td style="padding:1px;">UTC&#43;8 </td>
+<td style="padding:1px;"> 香港</td>
 
-<td> <a id="TTTdynTime_0"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_0"> </a> </td>
 </tr>
 <tr>
 
-<td> 1 </td>
-<td>PDT</td>
-<td>America/Los_Angeles</td>
-<td>SanFrancisco(USA)</td>
-<td>UTC-8/UTC-7 </td>
-<td> 美国三藩市 西岸</td>
+<td style="padding:1px;"> 1 </td>
+<td style="padding:1px;">PDT</td>
+<td style="padding:1px;">America/Los_Angeles</td>
+<td style="padding:1px;">SanFrancisco(USA)</td>
+<td style="padding:1px;">UTC-8/UTC-7 </td>
+<td style="padding:1px;"> 美国三藩市 西岸</td>
 
-<td> <a id="TTTdynTime_1"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_1"> </a> </td>
 
 </tr>
 <tr  style="background: #ebe0e0">
 
-<td> 2 </td>
-<td>EDT</td>
-<td>America/New_York</td>
-<td>Washington_DC(USA)</td>
-<td>UTC-5/UTC-4 </td>
-<td> 美国首都DC 東岸</td>
+<td style="padding:1px;"> 2 </td>
+<td style="padding:1px;">EDT</td>
+<td style="padding:1px;">America/New_York</td>
+<td style="padding:1px;">Washington_DC(USA)</td>
+<td style="padding:1px;">UTC-5/UTC-4 </td>
+<td style="padding:1px;"> 美国首都DC 東岸</td>
 
-<td> <a id="TTTdynTime_2"> </a> </td>
-
-</tr>
-<tr>
-
-<td> 3 </td>
-<td>AEDT</td>
-<td>Australia/Sydney</td>
-<td>Sydney(Australia)</td>
-<td>UTC&#43;11 </td>
-<td>澳洲    悉尼</td>
-
-<td> <a id="TTTdynTime_3"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_2"> </a> </td>
 
 </tr>
 <tr>
 
-<td> 4 </td>
-<td>GMT</td>
-<td>Europe/London</td>
-<td>London(UK)</td>
-<td>UTC&#43;0 </td>
-<td>英国    伦敦</td>
+<td style="padding:1px;"> 3 </td>
+<td style="padding:1px;">AEDT</td>
+<td style="padding:1px;">Australia/Sydney</td>
+<td style="padding:1px;">Sydney(Australia)</td>
+<td style="padding:1px;">UTC&#43;11 </td>
+<td style="padding:1px;">澳洲    悉尼</td>
 
-<td> <a id="TTTdynTime_4"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_3"> </a> </td>
+
+</tr>
+<tr>
+
+<td style="padding:1px;"> 4 </td>
+<td style="padding:1px;">GMT</td>
+<td style="padding:1px;">Europe/London</td>
+<td style="padding:1px;">London(UK)</td>
+<td style="padding:1px;">UTC&#43;0 </td>
+<td style="padding:1px;">英国    伦敦</td>
+
+<td style="padding:1px;"> <a id="TTTdynTime_4"> </a> </td>
 </tr>
 <tr  style="background: #ebe0e0">
 
-<td> 5 </td>
-<td>JCT</td>
-<td>Japan</td>
-<td>Japan</td>
-<td>UTC&#43;9 </td>
-<td>日本</td>
+<td style="padding:1px;"> 5 </td>
+<td style="padding:1px;">JCT</td>
+<td style="padding:1px;">Japan</td>
+<td style="padding:1px;">Japan</td>
+<td style="padding:1px;">UTC&#43;9 </td>
+<td style="padding:1px;">日本</td>
 
-<td> <a id="TTTdynTime_5"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_5"> </a> </td>
 </tr>
 <tr>
 
-<td> 6 </td>
-<td>CET</td>
-<td>Europe/Paris</td>
-<td>Paris(France)</td>
-<td>UTC&#43;1 </td>
-<td>法国    巴黎</td>
+<td style="padding:1px;"> 6 </td>
+<td style="padding:1px;">CET</td>
+<td style="padding:1px;">Europe/Paris</td>
+<td style="padding:1px;">Paris(France)</td>
+<td style="padding:1px;">UTC&#43;1 </td>
+<td style="padding:1px;">法国    巴黎</td>
 
-<td> <a id="TTTdynTime_6"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_6"> </a> </td>
 </tr>
 <tr>
 
-<td> 7 </td>
-<td>TZS</td>
-<td>Africa/Nairobi</td>
-<td>Tanzanian</td>
-<td>UTC&#43;3 </td>
-<td>坦桑尼亚</td>
+<td style="padding:1px;"> 7 </td>
+<td style="padding:1px;">TZS</td>
+<td style="padding:1px;">Africa/Nairobi</td>
+<td style="padding:1px;">Tanzanian</td>
+<td style="padding:1px;">UTC&#43;3 </td>
+<td style="padding:1px;">坦桑尼亚</td>
 
-<td> <a id="TTTdynTime_7"> </a> </td>
+<td style="padding:1px;"> <a id="TTTdynTime_7"> </a> </td>
 </tr>
 </table>
 
